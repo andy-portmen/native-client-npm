@@ -18,7 +18,7 @@ let server;
 const sprocess = [];
 
 const config = {
-  version: '1.0.0'
+  version: '1.0.3'
 };
 // closing node when parent process is killed
 process.stdin.resume();

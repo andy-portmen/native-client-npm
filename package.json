@@ -1,6 +1,6 @@
 {
   "name": "native-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A NodeJS-based small native client helps browser extensions to communicate with your operating system.",
   "main": "access.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andy-portmen/native-client.git"
+    "url": "git+https://github.com/andy-portmen/native-client-npm.git"
   },
   "keywords": [
     "nodejs",
@@ -21,7 +21,7 @@
   "author": "@andy-portmen",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/andy-portmen/native-client/issues"
+    "url": "https://github.com/andy-portmen/native-client-npm/issues"
   },
   "homepage": "https://github.com/andy-portmen/native-client#readme"
 }

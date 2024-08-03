@@ -1,13 +1,17 @@
 # native-client
 
-Native Client
+NodeJS-based Native Client
 
 How to install
 
-```
+```bash
 npm install native-client
-# to install
 npm run install --prefix node_modules/native-client
-# to uninstall
+```
+
+How to uninstall
+
+```bash
+npm install native-client
 npm run uninstall --prefix node_modules/native-client
 ```
