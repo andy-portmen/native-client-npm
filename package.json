@@ -1,0 +1,27 @@
+{
+  "name": "native-client",
+  "version": "1.0.0",
+  "description": "A NodeJS-based small native client helps browser extensions to communicate with your operating system.",
+  "main": "access.js",
+  "scripts": {
+    "install": "node install.js --ignore_node $1",
+    "uninstall": "node uninstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy-portmen/native-client.git"
+  },
+  "keywords": [
+    "nodejs",
+    "chrome-extension",
+    "firefox-addon",
+    "edge-extension",
+    "opera-addon"
+  ],
+  "author": "@andy-portmen",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/andy-portmen/native-client/issues"
+  },
+  "homepage": "https://github.com/andy-portmen/native-client#readme"
+}
