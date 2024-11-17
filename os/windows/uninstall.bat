@@ -24,5 +24,4 @@ RMDIR /Q /S "%LocalAPPData%\com.add0n.node"
 echo.
 echo ^>^>^> Done! ^<^<^<
 echo.
-pause
 

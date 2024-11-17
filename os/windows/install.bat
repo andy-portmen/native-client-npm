@@ -41,4 +41,4 @@ IF EXIST "%~dp0install.js" (GOTO :EXISTING) ELSE GOTO :MISSING
   ECHO To run the installer, please first unzip the archive
 
 :COMMON
-  PAUSE
+  ECHO .. Done
