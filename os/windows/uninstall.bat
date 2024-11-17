@@ -22,6 +22,6 @@ echo .. Deleting com.add0n.node
 RMDIR /Q /S "%LocalAPPData%\com.add0n.node"
 
 echo.
-echo ^>^>^> Done! ^<^<^<
+echo .. Host is removed
 echo.
 

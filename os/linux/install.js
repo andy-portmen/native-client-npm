@@ -157,8 +157,8 @@ async function firefox() {
     await chrome();
     await firefox();
     await application();
-    console.log(' => Native Host is installed in', dir);
-    console.log('\n\n>>> host is ready <<<\n\n');
+    console.log(' -> Native Host is installed in', dir);
+    console.log('\n\n -> Host is ready');
   }
   catch (e) {
     console.error(e);

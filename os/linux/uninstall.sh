@@ -21,4 +21,6 @@ rm -f ~/.thunderbird/native-messaging-hosts/com.add0n.node.json
 echo " -> Removing executables"
 rm -f -r ~/.config/com.add0n.node
 
-echo ">>> Native Client is removed <<<".
+echo
+echo " -> Host is removed"
+echo

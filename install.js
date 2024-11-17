@@ -14,13 +14,13 @@ try {
   }
   else if (platform === 'darwin') {
     console.log(' -> Detected platform: macOS');
-    execSync('node os/mac/install.js ' + additionalArgs, {
+    execSync(process.execPath + ' os/mac/install.js ' + additionalArgs, {
       stdio: 'inherit'
     });
   }
   else if (platform === 'linux') {
     console.log(' -> Detected platform: Linux');
-    execSync('node os/linux/install.js ' + additionalArgs, {
+    execSync(process.execPath + ' os/linux/install.js ' + additionalArgs, {
       stdio: 'inherit'
     });
   }
